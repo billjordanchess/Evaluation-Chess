@@ -1,0 +1,417 @@
+= material
+100 = P_VAL
+300 = N_VAL
+300 = B_VAL
+500 = R_VAL
+900 = Q_VAL
+
+=pawn position
+0 = pawn on A2 or H2 
+0 = pawn on B2 or G2 
+0 = pawn on C2 or F2  
+0 = pawn on D2 or E2 
+0 = pawn on A3 or H3 
+0 = pawn on B3 or G3 
+0 = pawn on C3 or F3 
+0 = pawn on D3 or E3 
+0 = pawn on A4 or H4 
+0 = pawn on B4 or G4 
+0 = pawn on C4 or F4
+8 = pawn on D4 or E4 
+0 = pawn on A5 or H5 
+0 = pawn on B5 or G5 
+0 = pawn on C5 or F5
+0 = pawn on D5 or E5 
+0 = pawn on A6 or H6 
+0 = pawn on B6 or G6 
+0 = pawn on C6 or F6
+0 = pawn on D6 or E6
+
+= piece position
+1 = knight on rank 1
+1 = knight on rank 2
+1 = knight on rank 3
+1 = knight on rank 4
+1 = knight on rank 5
+1 = knight on rank 6
+1 = knight on rank 7
+1 = knight on rank 8
+
+1 = knight on A or H file
+1 = knight on B or G file
+1 = knight on C or F file
+1 = knight on D or E file
+
+1 = bishop on rank 1
+1 = bishop on rank 2
+1 = bishop on rank 3
+1 = bishop on rank 4
+1 = bishop on rank 5
+1 = bishop on rank 6
+1 = bishop on rank 7
+1 = bishop on rank 8
+
+1 = bishop on A or H file
+1 = bishop on B or G file
+1 = bishop on C or F file
+1 = bishop on D or E file
+
+1 = rook on rank 1
+1 = rook on rank 2
+1 = rook on rank 3
+1 = rook on rank 4
+1 = rook on rank 5
+1 = rook on rank 6
+1 = rook on rank 7
+1 = rook on rank 8
+
+1 = rook on A or H file
+1 = rook on B or G file
+1 = rook on C or F file
+1 = rook on D or E file
+
+1 = queen on rank 1
+1 = queen on rank 2
+1 = queen on rank 3
+1 = queen on rank 4
+1 = queen on rank 5
+1 = queen on rank 6
+1 = queen on rank 7
+1 = queen on rank 8
+
+1 = queen on A or H file
+1 = queen on B or G file
+1 = queen on C or F file
+1 = queen on D or E file
+
+1 = king on rank 1
+1 = king on rank 2
+1 = king on rank 3
+1 = king on rank 4
+1 = king on rank 5
+1 = king on rank 6
+1 = king on rank 7
+1 = king on rank 8
+
+1 = king on A or H file
+1 = king on B or G file
+1 = king on C or F file
+1 = king on D or E file
+
+1 = king endgame on rank 1
+1 = king endgame on rank 2
+1 = king endgame on rank 3
+1 = king endgame on rank 4
+1 = king endgame on rank 5
+1 = king endgame on rank 6
+1 = king endgame on rank 7
+1 = king endgame on rank 8
+
+1 = king endgame on A or H file
+1 = king endgame on B or G file
+1 = king endgame on C or F file
+1 = king endgame on D or E file
+
+= pawn blocked
+1 = by pawn on rank 2
+1 = by pawn on rank 3
+1 = by pawn on rank 4
+1 = by pawn on rank 5
+1 = by pawn on rank 6
+1 = by pawn on rank 7
+
+1 = by pawn on A or H file
+1 = by pawn on B or G file
+1 = by pawn on C or F file
+1 = by pawn on D or E file
+
+1 = by knight on rank 2
+1 = by knight on rank 3
+1 = by knight on rank 4
+1 = by knight on rank 5
+1 = by knight on rank 6
+1 = by knight on rank 7
+
+1 = by knight on A or H file
+1 = by knight on B or G file
+1 = by knight on C or F file
+1 = by knight on D or E file
+
+1 = by bishop on rank 2
+1 = by bishop on rank 3
+1 = by bishop on rank 4
+1 = by bishop on rank 5
+1 = by bishop on rank 6
+1 = by bishop on rank 7
+
+1 = by bishop on A or H file
+1 = by bishop on B or G file
+1 = by bishop on C or F file
+1 = by bishop on D or E file
+
+1 = by rook on rank 2
+1 = by rook on rank 3
+1 = by rook on rank 4
+1 = by rook on rank 5
+1 = by rook on rank 6
+1 = by rook on rank 7
+
+1 = by rook on A or H file
+1 = by rook on B or G file
+1 = by rook on C or F file
+1 = by rook on D or E file
+
+1 = by queen on rank 2
+1 = by queen on rank 3
+1 = by queen on rank 4
+1 = by queen on rank 5
+1 = by queen on rank 6
+1 = by queen on rank 7
+
+1 = by queen on A or H file
+1 = by queen on B or G file
+1 = by queen on C or F file
+1 = by queen on D or E file
+
+1 = by king on rank 2
+1 = by king on rank 3
+1 = by king on rank 4
+1 = by king on rank 5
+1 = by king on rank 6
+1 = by king on rank 7
+
+1 = by king on A or H file
+1 = by king on B or G file
+1 = by king on C or F file
+1 = by king on D or E file
+
+= blocking double pawn move
+1 = by knight on A or H file
+1 = by knight on B or G file
+1 = by knight on C or F file
+1 = by knight on D or E file
+
+1 = by bishop on A or H file
+1 = by bishop on B or G file
+1 = by bishop on C or F file
+1 = by bishop on D or E file
+
+1 = by rook on A or H file
+1 = by rook on B or G file
+1 = by rook on C or F file
+1 = by rook on D or E file
+
+1 = by queen on A or H file
+1 = by queen on B or G file
+1 = by queen on C or F file
+1 = by queen on D or E file
+
+1 = by king on A or H file
+1 = by king on B or G file
+1 = by king on C or F file
+1 = by king on D or E file
+
+= mobility
+= empty squares not attacked by pawn
+1 = by knight
+1 = by bishop
+1 = by rook
+1 = by queen
+
+= squares attacked by king
+1 = by pawn
+1 = by knight
+1 = by bishop
+1 = by rook
+1 = by queen
+
+1 = rook with support
+1 = queen with support
+
+= attacks on pawns not defended by pawns
+1 = by knight
+1 = by bishop
+1 = by rook
+1 = by queen
+1 = by king
+
+= pawn attacks
+1 = pawn attacks knight
+1 = pawn attacks rook
+1 = pawn attacks bishop
+1 = pawn attacks queen
+
+=pawn attacks = done
+1 = pawn attacks knight
+1 = pawn attacks bishop
+1 = pawn attacks rook
+1 = pawn attacks queen
+
+//knight attacks
+1 = knight attacks bishop
+1 = knight attacks rook
+1 = knight attacks queen
+
+//bishop attacks
+1 = bishop attacks knight
+1 = bishop attacks rook
+1 = bishop attacks queen
+
+//rook attacks
+1 = rook attacks knight
+1 = rook attacks bishop
+1 = rook attacks queen
+
+//queen attacks
+1 = queen attacks knight
+1 = queen attacks bishop
+1 = queen attacks rook
+
+= absolute pins
+1 = bishop pins pawn
+1 = bishop pins knight
+1 = bishop pins rook
+1 = bishop pins queen
+1 = rook pins pawn
+1 = rook pins knight
+1 = rook pins bishop
+1 = rook pins queen
+1 = queen pins pawn
+1 = queen pins knight
+1 = queen pins bishop
+1 = queen pins rook
+
+= defends
+1 = pawn defends pawn
+1 = pawn defends knight
+1 = pawn defends bishop
+1 = pawn defends rook
+1 = pawn defends queen
+
+1 = knight defends pawn
+1 = knight defends knight
+1 = knight defends bishop
+1 = knight defends rook
+1 = knight defends queen
+
+1 = bishop defends pawn
+1 = bishop defends knight
+1 = bishop defends bishop
+1 = bishop defends rook
+1 = bishop defends queen
+
+1 = rook defends pawn
+1 = rook defends knight
+1 = rook defends bishop
+1 = rook defends rook
+1 = rook defends queen
+
+1 = queen defends pawn
+1 = queen defends knight
+1 = queen defends bishop
+1 = queen defends rook
+1 = queen defends queen
+
+1 = king defends pawn
+1 = king defends knight
+1 = king defends bishop
+1 = king defends rook
+1 = king defends queen
+
+= pawns
+= pawn majorities
+1 = doubled majority
+1 = backward majority
+
+= weak pawns
+1 = isolated pawn on rank 2
+1 = isolated pawn on rank 3
+1 = isolated pawn on rank 4
+1 = isolated pawn on rank 5
+1 = isolated pawn on rank 6
+1 = isolated pawn on rank 7
+
+1 = backward pawn on rank 2
+1 = backward pawn on rank 3
+1 = backward pawn on rank 4
+1 = backward pawn on rank 5
+1 = backward pawn on rank 6
+
+1 = doubled pawn on rank 3
+1 = doubled pawn on rank 4
+1 = doubled pawn on rank 5
+			
+1 = isolated open file bonus
+1 = backward open file bonus
+
+= outpost
+1 = knight on outpost
+1 = bishop on outpost
+1 = rook on outpost
+1 = queen on outpost
+1 = king on outpost
+
+= passed pawns
+1 = passed pawn on rank 2
+1 = passed pawn on rank 3
+1 = passed pawn on rank 4
+1 = passed pawn on rank 5
+1 = passed pawn on rank 6
+1 = passed pawn on rank 7
+
+1 = supported passed pawn on rank 2
+1 = supported passed pawn on rank 3
+1 = supported passed pawn on rank 4
+1 = supported passed pawn on rank 5
+1 = supported passed pawn on rank 6
+1 = supported passed pawn on rank 7
+
+1 = connected pawn on rank 2
+1 = connected pawn on rank 3
+1 = connected pawn on rank 4
+1 = connected pawn on rank 5
+1 = connected pawn on rank 6
+1 = connected pawn on rank 7
+
+1 = adjacent pawn on rank 2
+1 = adjacent pawn on rank 3
+1 = adjacent pawn on rank 4
+1 = adjacent pawn on rank 5
+1 = adjacent pawn on rank 6
+1 = adjacent pawn on rank 7
+
+= piece combinations
+1 = bishop pair
+1 = opposite colored bishops percentage
+
+= rooks
+1 = open file
+1 = half-open file
+1 = rook behind passed pawn
+
+= trapped pieces
+1 = trapped knight
+1 = trapped bishop
+1 = trapped rook
+1 = trapped queen
+1 = trapped king
+
+= king defence
+1 = defence on A2 or H2
+1 = defence on B2 or G2
+1 = defence on C2 or F2
+1 = defence on A3 or H3
+1 = defence on B3 or G3
+1 = defence on C3 or F3
+1 = defence on A4 or H4
+1 = defence on B4 or G4
+1 = defence on C4 or F4
+
+= uncastled
+1 = moved king
+1 = moved queen rook
+1 = moved king rook
+
+= new scores after castling
+
+
